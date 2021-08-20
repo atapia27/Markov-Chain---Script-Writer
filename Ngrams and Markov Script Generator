@@ -14,8 +14,7 @@ def ngrams(s, n):
             D[s[i:n]] = s.count(s[i:n])
             n += 1    
     return D
-    
-ngrams("tortoise", n = 2)
+
 
 
 
